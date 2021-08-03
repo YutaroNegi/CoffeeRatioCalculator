@@ -1,0 +1,66 @@
+*{
+    color: #9AA0A6;
+}
+img{
+    filter: invert(68%) sepia(15%) saturate(128%) hue-rotate(169deg) brightness(91%) contrast(93%)
+}
+input{
+    border: solid 2px #9AA0A6;
+    border-radius: 10px;
+    background-color: transparent;
+    padding: 0;
+    text-align: center;
+    padding: 10px;
+    width: 10vh;
+}
+
+input::placeholder{
+    color: #9AA0A6;
+}
+
+.noUnder{
+    text-decoration: none;
+}
+
+.noUnder:hover{
+    text-decoration: none;
+}
+
+
+.my-bg{
+    background-color: rgb(32, 33, 36);
+    color: #9AA0A6;
+}
+
+.myContainer{
+    max-width: 50vh;
+}
+
+.myBorder{
+    border: solid 2px #9AA0A6;
+    border-radius: 10px;
+}
+
+.myButton{
+    cursor: pointer;
+}
+
+
+
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+input[type="number"]
+{
+    font-size:22px;
+}

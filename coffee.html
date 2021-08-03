@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ratio Converter</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body class="my-bg text-center">
+    <a href="./index.html"><img class="mt-4" src="./assets/local_cafe_black_48dp.svg" width="70px" alt=""></a>
+
+
+    <div id="mainContainer" class="myBorder myContainer mt-4 mb-4 p-4 ml-auto mr-auto text-center">
+        <div class="m-4">
+            <input id="waterInput" type="number">
+            <img src="./assets/water_drop_black_48dp.svg" alt="">
+        </div>
+
+        <div class="m-4">
+            <input id="ratioInput" type="number">
+            <img src="./assets/integration_instructions_black_48dp.svg" alt="">
+        </div>
+
+        <div class="m-4">
+            <input id="coffeeInput" type="number" disabled="disabled">
+            <img src="./assets/local_cafe_black_48dp.svg" alt="">
+        </div>
+
+        <img onclick="getCoffee()" class="myButton" src="./assets/calculate_black_48dp.svg" width="80px" alt="">
+
+    </div>
+
+    <a  href="./water.html"><img class="mr-4" src="./assets/water_drop_black_48dp.svg" alt=""></a>
+    <a href="./ratio.html"><img src="./assets/integration_instructions_black_48dp.svg" alt=""></a>
+
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
